@@ -1,0 +1,65 @@
+module Base
+{
+
+	recipe Make Chest Rig {
+		Belt2=2,
+		LeatherStrips=3,
+		Thread=2, 
+		DuctTape/Scotchtape=2,
+
+		keep [Recipe.GetItemTypes.SharpKnife]/Scissors,
+		keep Needle,
+
+		/*NeedToBeLearn:true,*/
+
+		Result: ChestRig,
+		SkillRequired: Tailoring=4,
+		Time: 600.0,
+		AnimNode: RipSheets,
+		Sound: ClothesRipping,
+		Category: Survivalist,
+		
+  	}
+
+	recipe Make Webbing {
+		Belt2=3,
+		LeatherStrips=4,
+		Thread=3, 
+		DuctTape/Scotchtape=3,
+
+		keep [Recipe.GetItemTypes.SharpKnife]/Scissors,
+		keep Needle,
+
+		/*NeedToBeLearn:true,*/
+
+		Result: Webbing,
+		SkillRequired: Tailoring=5,
+		Time: 900.0,
+		AnimNode: RipSheets,
+		Sound: ClothesRipping,
+		Category: Survivalist,
+		
+	}
+
+    recipe Make Webbing Anti-Riot {
+        Belt2=3,
+        LeatherStrips=4,
+        Thread=3, 
+        DuctTape/Scotchtape=3,
+		PaintBlack,
+
+        keep [Recipe.GetItemTypes.SharpKnife]/Scissors,
+        keep Needle,
+
+        /*NeedToBeLearn:true,*/
+
+        Result: Webbing,
+		SkillRequired: Tailoring=6,
+        Time: 900.0,
+        AnimNode: RipSheets,
+        Sound: ClothesRipping,
+        Category: Survivalist,
+    }
+
+}
+

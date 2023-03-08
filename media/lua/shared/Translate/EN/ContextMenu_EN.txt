@@ -1,0 +1,4 @@
+ContextMenu_EN = {	
+    ContextMenu_WearTight = "Wear Tight",
+    ContextMenu_WearLoose = "Wear Loose",
+} 

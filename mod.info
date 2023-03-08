@@ -1,0 +1,6 @@
+name=Chest Rig Refine
+poster=poster.png
+id=chestrigrefine
+require=GEARBASIC
+description=Fix original mod model problem with Webbing Black (Tight) (clothingItem XML make wrong model definition). Also change recipes and some minor fix.
+url=
