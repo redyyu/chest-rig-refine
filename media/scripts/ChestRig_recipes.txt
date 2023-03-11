@@ -2,7 +2,7 @@ module Base
 {
 
 	recipe Make Chest Rig {
-		Belt2=2,
+		Belt2/HolsterDouble/HolsterSimple=2,
 		LeatherStrips=3,
 		Thread=2, 
 		DuctTape/Scotchtape=2,
@@ -22,7 +22,7 @@ module Base
   	}
 
 	recipe Make Webbing {
-		Belt2=3,
+		Belt2/HolsterDouble/HolsterSimple=3,
 		LeatherStrips=4,
 		Thread=3, 
 		DuctTape/Scotchtape=3,
@@ -42,7 +42,7 @@ module Base
 	}
 
     recipe Make Webbing Anti-Riot {
-        Belt2=3,
+        Belt2/HolsterDouble/HolsterSimple=3,
         LeatherStrips=4,
         Thread=3, 
         DuctTape/Scotchtape=3,
