@@ -17,6 +17,9 @@ table.insert(ProceduralDistributions.list.ArmySurplusMisc.items, 1)
 table.insert(ProceduralDistributions.list.ArmyStorageOutfit.items, "Webbing_Military")
 table.insert(ProceduralDistributions.list.ArmyStorageOutfit.items, 0.5)	
 
+table.insert(ProceduralDistributions.list.ArmyStorageOutfit.items, "ChestRig_Military")
+table.insert(ProceduralDistributions.list.ArmyStorageOutfit.items, 0.5)	
+
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, "ChestRig")
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, 1)	
 table.insert(ProceduralDistributions.list.FirearmWeapons.items, "Webbing")
@@ -35,6 +38,9 @@ table.insert(ProceduralDistributions.list.GunStoreShelf.items, 0.5)
 table.insert(ProceduralDistributions.list.LockerArmyBedroom.items, "Webbing_Military")
 table.insert(ProceduralDistributions.list.LockerArmyBedroom.items, 0.5)
 
+table.insert(ProceduralDistributions.list.LockerArmyBedroom.items, "ChestRig_Military")
+table.insert(ProceduralDistributions.list.LockerArmyBedroom.items, 0.5)
+
 table.insert(ProceduralDistributions.list.PawnShopGunsSpecial.items, "ChestRig")
 table.insert(ProceduralDistributions.list.PawnShopGunsSpecial.items, 1)
 table.insert(ProceduralDistributions.list.PawnShopGunsSpecial.items, "Webbing")
@@ -46,6 +52,9 @@ table.insert(ProceduralDistributions.list.PlankStashGun.items, "Webbing")
 table.insert(ProceduralDistributions.list.PlankStashGun.items, 1)
 
 table.insert(ProceduralDistributions.list.PoliceStorageOutfit.items, "Webbing_Black")
+table.insert(ProceduralDistributions.list.PoliceStorageOutfit.items, 0.5)
+
+table.insert(ProceduralDistributions.list.PoliceStorageOutfit.items, "ChestRig_Black")
 table.insert(ProceduralDistributions.list.PoliceStorageOutfit.items, 0.5)
 
 table.insert(ProceduralDistributions.list.WardrobeRedneck.items, "ChestRig")
@@ -75,7 +84,10 @@ table.insert(SuburbsDistributions.SurvivorCache2.SurvivorCrate.items, "Webbing")
 table.insert(SuburbsDistributions.SurvivorCache2.SurvivorCrate.items, 0.5)	
 
 
-table.insert(VehicleDistributions.Police.TruckBed.items, "Webbing_Military")
+table.insert(VehicleDistributions.Police.TruckBed.items, "Webbing_Black")
+table.insert(VehicleDistributions.Police.TruckBed.items, 0.5)
+
+table.insert(VehicleDistributions.Police.TruckBed.items, "ChestRig_Black")
 table.insert(VehicleDistributions.Police.TruckBed.items, 0.5)
 
 table.insert(VehicleDistributions.SurvivalistTruckBed.items, "ChestRig")
