@@ -7,6 +7,16 @@
 	</files>
 
 	<files>
+	<path>media/clothing/clothingItems/ChestRig_Black.xml</path>
+	<guid>d53a66f6-5086-47ef-a83c-96cab7c34805</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/ChestRig_Military.xml</path>
+	<guid>e600393c-c09e-4362-8145-873b138f931c</guid>
+	</files>
+
+	<files>
 	<path>media/clothing/clothingItems/Webbing.xml</path>
 	<guid>be75db90-05f9-4676-95d5-b25d501ccab3</guid>
 	</files>

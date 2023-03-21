@@ -12,9 +12,31 @@ module Base
         Weight	=	0.5,
         Type	=	Clothing,
         DisplayName	=	Chest Holster,
-        IconsForTexture = ChestRig_Gray;ChestRig_Green;ChestRig_Tan,
+        Icon = ChestRig_Tan,
         BodyLocation = TorsoRig,
         ClothingItem = ChestRig,
+        AttachmentsProvided = ChestRig,
+		WorldStaticModel = PA_Webbing,
+    }
+
+    item ChestRig_Black {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Chest Holster Anti-Riot,
+        Icon = ChestRig_Gray,
+        BodyLocation = TorsoRig,
+        ClothingItem = ChestRig_Black,
+        AttachmentsProvided = ChestRig,
+		WorldStaticModel = PA_Webbing,
+    }
+
+    item ChestRig_Military {
+        Weight	=	0.5,
+        Type	=	Clothing,
+        DisplayName	=	Chest Holster Military,
+        Icon = ChestRig_Green,
+        BodyLocation = TorsoRig,
+        ClothingItem = ChestRig_Military,
         AttachmentsProvided = ChestRig,
 		WorldStaticModel = PA_Webbing,
     }
